@@ -1,0 +1,20 @@
+{
+  "name": "@unicorn-menagerie/menagerie",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.5.2",
+    "elysia": "0.5.16",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "bun-types": "canary",
+    "type-fest": "^3.11.1"
+  },
+  "module": "src/index.ts",
+  "main": "src/index.ts",
+  "type": "module"
+}

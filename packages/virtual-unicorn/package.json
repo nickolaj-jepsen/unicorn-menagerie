@@ -1,0 +1,29 @@
+{
+  "name": "@unicorn-menagerie/virtual-unicorn",
+  "version": "0.1.0",
+  "dependencies": {
+    "@elysiajs/eden": "^0.5.2",
+    "@emotion/react": "^11.11.0",
+    "@mantine/core": "^6.0.13",
+    "@mantine/hooks": "^6.0.13",
+    "@unicorn-menagerie/menagerie": "workspace:packages/menagerie",
+    "elysia": "^0.5.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@types/web": "^0.0.99",
+    "bun-types": "canary",
+    "typescript": "5.0.4",
+    "react-refresh": "0.10.0"
+  },
+  "scripts": {
+    "dev": "bun --watch run dev.tsx",
+    "watch": "bun --watch build src/index.tsx --outdir build"
+  },
+  "module": "dev.tsx",
+  "type": "module"
+}
